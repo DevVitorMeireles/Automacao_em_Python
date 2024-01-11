@@ -10,10 +10,10 @@ pyautogui.PAUSE = 1
 pyautogui.press('win')
 pyautogui.write('google chrome')
 pyautogui.press('enter')
+time.sleep(3)
 link = 'https://dlp.hashtagtreinamentos.com/python/intensivao/login'
 pyautogui.write(link)
 pyautogui.press('enter')
-
 
 time.sleep(5)
 
@@ -44,4 +44,4 @@ for linha in tabela.index:
         pyautogui.write(str(tabela.loc[linha, "obs"]))
     pyautogui.press("tab")
     pyautogui.press("enter")
-    pyautogui.scroll(5000) #rola a tela para cima para repetir o processo.  Logitech    Mouse   1   25.95
+    pyautogui.scroll(5000) #rola a tela para cima para repetir o processo.  
